@@ -1,0 +1,79 @@
+# Project-CofCoffe
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cof Coffe</title>
+    <link rel="stylesheet" href="coffeco.css" class="css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body>
+    <section class="all">
+      <div class="circulo"></div>
+        <header>
+         <a href="#"><img src="img/logo.png" class="logo"></a>
+         <nav>
+        <div class="nav-links"> 
+            <ul>
+              <a class="cta" ><button li><a href= "#">Inicío</a></li></button></a> <!-- href para ficar como um "link"-->
+              <a class="cta" ><button li><a href= "#">Login</a></li></button></a>
+              <a class="cta" ><button li><a href= "#">Delivery</a></li></button></a>
+                <a class="cta" ><button li><a href= "#">Sobre nós</a></li></button></a>
+          </ul>
+          </nav>
+
+        <!-- </div> -->
+        </header>
+        <div class="content">
+            <div class="caixadetexto">
+                
+                    <h1>Se é café, é com a <span>Cof Coffe.</span></h1> <p>Existem vários momentos marcantes e a Cof Coffe pode fazer parte deles.
+                       O que você está esperando para ter essa experiência?</p>
+
+                     <a href="#">saiba mais!</a>
+            </div>
+            <figure>
+          <div class="imgbox">
+            <a href="#"></a><img src="img/cafe1.png" class="produto1">
+          </div>
+        </div>
+
+<ul class="produto2">
+    <li><img src="img/cafe 2.png" onclick="imgSlider('img/cafe 2.png')"></li> <!--fazer as umagenhs mudarem com click-->
+    <div class="novidade"><li><img src="img/coffe2.png" onclick="imgSlider('img/coffe2.png')"><figcaption>Novidade</figcaption></li></div>
+    <li><img src="img/cafe4.png" onclick="imgSlider('img/cafe4.png')"></li>
+</ul>
+
+</figure>
+    </section>
+    <script type="text/javascript">
+      function imgSlider(anything){
+        document.querySelector('.produto1').src = anything;
+      }
+    </script>
+
+<!--rodape da pagina-->
+    <footer class="footer">
+        <div class="footer-content">
+           <h2>O melhor café que você ira experimentar em sua vida!</h2> 
+           <ul class="socials">
+             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+             <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+             <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+           </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy;2022 code0pacity. designed by <span> Raianny Caroline Da Silva Miguel/ RA:922203218</span></p>
+        </div>
+    </footer>
+    <!--fim do rodape-->
+</body>
+</html>
